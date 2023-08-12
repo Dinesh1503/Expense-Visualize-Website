@@ -1,0 +1,39 @@
+/* styles.css or your custom CSS file */
+
+.image-upload-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px; /* Add some padding for spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dashboard-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  align-items: center;
+  }
+  
+  .charts-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .chart-item {
+    flex: 1;
+    max-width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Customize the chart canvas size */
+  canvas {
+    width: 100%;
+    height: 300px;
+  }
+  
