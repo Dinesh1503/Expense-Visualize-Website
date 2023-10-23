@@ -9,5 +9,5 @@ export const API_URLS = {
   month: `${BASE_URL}/data/month`,
   year: `${BASE_URL}/data/year`,
   total: `${BASE_URL}/data/total`,
-  userData: `${BASE_URL}/user-data`, // An example URL to get user data
-};
+  userData: `${BASE_URL}/data/total`
+}

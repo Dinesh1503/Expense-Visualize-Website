@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
+import Table from './components/Data';
 // const root = ReactDOM.createRoot(document.getElementById('root'))
 // root.render(
 //   <React.StrictMode>
@@ -24,7 +25,8 @@ root.render(
        <Route path = "/*" element = {<App/>}/>
        <Route path = "/Register" element = {<Register/>}/>
        <Route path = "/Login" element = {<Login/>}/>
-       <Route path= "/Dashboard/:username" element = {<Dashboard/>}/>
+       <Route path = "/Dashboard/:username" element = {<Dashboard/>}/>
+       <Route path = "/Table/:username" element = {<Table/>}/>
      </Routes>
     </BrowserRouter>
   </React.StrictMode>,
